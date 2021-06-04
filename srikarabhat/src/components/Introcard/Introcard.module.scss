@@ -1,0 +1,13 @@
+.introCardContainer {
+  height: 150%;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  align-self: center;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  @media (max-width: 400px) {
+    height: 100%;
+    width: 60%;
+  }
+}

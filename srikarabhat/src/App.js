@@ -1,9 +1,10 @@
 import "./App.css";
+import { Intro } from "./containers";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Hii, Srikara Here</header>
+      <Intro />
     </div>
   );
 }
