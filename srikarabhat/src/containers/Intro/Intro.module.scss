@@ -1,20 +1,12 @@
 .introContainer {
   width: 100%;
-  height: 20%;
-  background-color: #4a4aae;
+  height: 100%;
   display: flex;
-  padding: 5%;
-  justify-content: space-between;
-  overflow: scroll;
-  .welcomeContainer {
-    color: white;
-  }
-  .profilePic {
-    height: 200%;
-    width: 35%;
-    min-width: 100px;
-    align-self: center;
-    border-radius: 15px;
-    object-fit: contain;
-  }
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+ .introContainer{
+    position: absolute;
+    top:0%;
 }

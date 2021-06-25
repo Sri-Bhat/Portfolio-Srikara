@@ -1,13 +1,32 @@
 .introCardContainer {
-  height: 150%;
+  height: 50%;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   align-self: center;
   padding: 10px;
   color: white;
-  font-size: 18px;
-  @media (max-width: 400px) {
-    height: 100%;
-    width: 60%;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  .textContainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    .name2{
+      display: flex;
+
+    }
+    .name {
+    font-weight: bold;
+    margin-right: 10px;
+    }
+  }
+  .typeWriterText{
+    font-size: 14px;
+    margin-top: 20px;
   }
 }
